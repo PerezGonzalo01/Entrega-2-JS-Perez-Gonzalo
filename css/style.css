@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+article div {
+    display: flex;
+    justify-content: center;
+}

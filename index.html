@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>Entrega 2 JavaScript</title>
+</head>
+
+<body>
+    <article>
+        <h1>Convertidor de Dinero</h1>
+        <h2>Fecha 17/9/2023</h2>
+        <form>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" step="0.01" min="0" required>
+
+            <label for="deMoneda">De:</label>
+            <select id="deMoneda">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+            </select>
+
+            <label for="aMoneda">A:</label>
+            <select id="aMoneda">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+            </select>
+
+            <button type="button" onclick="convertirMoneda()">Convertir</button>
+        </form>
+        <p>Resultado: <span id="resultado"></span></p>
+        <div><img src="./assets/img/plata.jpg"></div>
+    </article>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
